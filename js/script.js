@@ -29,7 +29,7 @@ function hKeyDown(e) {
 					if (confirm("Seguro que quieres limpiar el sistema y borrar los datos actuales?")) {
 						window.localStorage.clear();
 						alert("Los datos se han borrado con éxito!");
-						window.location.href = "/index.html"
+						window.location.href = "/vasos/index.html"
 					}
 				} else 
 					goTo(document.activeElement.tabIndex);
