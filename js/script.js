@@ -36,7 +36,7 @@ function hKeyDown(e) {
 				}
       break;
     case 'SoftLeft':
-      window.location.href = "/index.html";
+      window.location.href = "/vasos/index.html";
       break;
     case 'SoftRight':
     case 'Insert':
