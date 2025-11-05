@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Add</title>
+  </head>
+  <body>
+    <header>Agregar Vasos</header>
+    <main>
+      <section id="fields">
+	Día de la semana:<br>
+	<select id="day" class="item" tabIndex="0">
+	  <option id="L" name="Lunes" value="L">Lunes</option>
+	  <option id="M" name="Martes" value="M">Martes</option>
+	  <option id="I" name="Miércoles" value="I">Miércoles</option>
+	  <option id="J" name="Jueves" value="J">Jueves</option>
+	  <option id="V" name="Viernes" value="V">Viernes</option>
+	  <option id="S" name="Sábado" value="S">Sábado</option>
+	  <option id="D" name="Domingo" value="D">Domingo</option>
+	</select>
+	<!--input id="day" type="text" class="item" tabIndex="0"></div--><br>
+	Cantidad de Vasos:<br>
+	<input id="amnt" type="tel" class="item" tabIndex="1"></div><br>
+      </section>
+    </main>
+    <footer class="softkeys">
+      <span id="left" onclick='hKeyDown({key: "SoftLeft"})' class="skey">Volver</span>
+      <span id="center" class="skey">Mover</span>
+      <span id="right" onclick='hKeyDown({key: "SoftRight"})' class="skey">Agregar</span>
+    </footer>
+  </body>
+  <script src="/js/script.js"></script>
+</html>

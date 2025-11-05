@@ -1,0 +1,124 @@
+html {
+    background-color: olive;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient(yellow, cyan); 
+    font-size: 6vw;
+}
+
+header {
+    background-color: purple;
+    color: white;
+    font-size: 8vw;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 6%;
+    padding 4%;
+    /*position: sticky;*/
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: yellow;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+input, select {
+    font-size: 6vw;
+    width: 60%;
+    box-sizing: border-box;
+}
+
+section {
+    /*margin-top: 6%;*/
+	margin-top: 4%;
+	margin-bottom: 4%;
+	min-width: 50%;
+}
+
+img {
+	width: 100%;
+	margin: auto;
+}
+
+.item {
+    background-color: white;
+    color: black;
+    min-height: 10%;
+    border: solid 2px purple;
+    border-radius: 5px;
+}
+
+.item:focus {
+    background-color: purple;
+    color: white;
+    outline: none;
+}
+
+.squ {
+    background-color: blue;
+    padding: 2%;
+	border-radius: 5px;
+    width: 12%;
+    color: white;
+    font-weight: bold;
+	margin: 1px;
+}
+
+.skey {
+    width: 33%;
+}
+
+.sqrs {
+	margin-top: 6%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 4.5vw;
+}
+
+.flex-box {
+	margin-top: 8%;
+	width: 100%;
+	display: flex;
+    justify-content: space-between;
+}
+
+#center {
+    text-align: center;
+}
+
+#right {
+    text-align: right;
+}
+
+#totals > div {
+	background-color: purple;
+    width: 50%;
+}
+
+#day {
+    font-size: 6vw;
+    height: 20%;
+}
+
+#vaso {
+	display: inline-flex;
+}
+
+#options {
+	display: grid;
+	grid-gap: 10%;
+	flex-direction: column;
+    align-items: center;
+}
+

@@ -1,0 +1,17 @@
+{
+  "version" : "2.0.0",
+  "name": "Mis Vasos",
+  "description": "Registro de mis vasos por semana",
+  "type": "privileged",
+  "launch_path": "/index.html",
+  "icons": {
+    "56": "/icons/56x56.png",
+    "64": "/icons/64x64.png",
+    "112": "/icons/112x112.png",
+    "128": "/icons/128x128.png"
+  },
+  "developer": {
+    "name": "Alan Gómez Pasillas",
+    "url": "https://mysticprisma.github.io"
+  }
+}
