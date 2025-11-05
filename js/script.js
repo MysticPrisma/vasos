@@ -11,7 +11,7 @@ function nav(move) {
 
 function goTo(page) {
   let state = pages[page];
-  window.location.href = "/pages/" + state + ".html";
+  window.location.href = "/vasos/pages/" + state + ".html";
 }
 
 function hKeyDown(e) {
@@ -92,11 +92,11 @@ function main() {
     peso.innerText += pesos;
 		const trofeo = document.getElementById("vaso");
 		if (pesos >= 500 && pesos < 1500) {
-			trofeo.src = "/img/vaso-bronce.svg";
+			trofeo.src = "/vasos/img/vaso-bronce.svg";
 		} else if (pesos >= 1500 && pesos < 3000) {
-			trofeo.src = "/img/vaso-plata.svg";
+			trofeo.src = "/vasos/img/vaso-plata.svg";
 		} else if (pesos >= 3000) {
-			trofeo.src = "/img/vaso-oro.svg";
+			trofeo.src = "/vasos/img/vaso-oro.svg";
 		}
   }
 }
